@@ -1,4 +1,4 @@
-#**COOKBOOK**
+# **COOKBOOK**
 
 This project made by Giorgos Anastaskos.
 The Cookbook describes a project which have been made from me and it is relevant to 
@@ -16,7 +16,7 @@ The goal of the project is to merge the train and the data set of the above zip 
 containing only the mean and std variables. Moreover the new data set must have tidy
 descriptive variables and also to contain the activity class.
 
-#Activity Class:
+# Activity Class:
 
 1. WALKING
 2. WALKING_UPSTAIRS
@@ -26,18 +26,18 @@ descriptive variables and also to contain the activity class.
 6. LAYING
 
 #    Steps which i followed in order to transform the data set in its final condition:
-1.Improt the 'activity_labels'.txt.
-2.Import the 'features.txt' as a tibble.
-3.From the 'feature object' make a new subset that contains the std and mean variables as an index.
-4.Indexing Variable names
-5.Importing and Tidyng 'x_data.txt' and 'y_test.txt 
-6.Binding the activity column with the Test data set
-7.Rename activity variables in order to be in the descriptive form.
-9.Transform activity variables to a factor
-10.The same procedure(steps 5-9) was followed for the train data set.
-11.Merging the final two new data sets('x_train_mean_sd_actv' and 'x_test_mean_sd_actv') 
-12.Creating a second, independent tidy data set with the mean of each variable per activity
-   named 'avg_activity' and then exporting it as a csv file.
+1. Improt the 'activity_labels'.txt.
+2. Import the 'features.txt' as a tibble.
+3. From the 'feature object' make a new subset that contains the std and mean variables as an index.
+4. Indexing Variable names
+5. Importing and Tidyng 'x_data.txt' and 'y_test.txt 
+6. Binding the activity column with the Test data set
+7. Rename activity variables in order to be in the descriptive form.
+9. Transform activity variables to a factor
+10. The same procedure(steps 5-9) was followed for the train data set.
+11. Merging the final two new data sets('x_train_mean_sd_actv' and 'x_test_mean_sd_actv') 
+12. Creating a second, independent tidy data set with the mean of each variable per activity
+    named 'avg_activity' and then exporting it as a csv file.
 13. Viewing both Variable summaries and mean values per activity.
 
 
