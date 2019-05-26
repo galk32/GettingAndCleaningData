@@ -10,7 +10,7 @@
    and download the zip file.
 5. y_test.txt and y_train.txt is the mapping data for the activity variables.
 6. The run_analysis.R is the R script which runs the whole analysis.
-7. The avg_activity.csv is a new data set with the mean of the mereged dataset per Variable and being grouped_by activity  
+7. The avg_activity.txt is a new data set with the mean of the mereged dataset per Variable and being grouped_by activity  
    and each subject.
 8. And the present README which lists the scripts i upload to the repo.
 
