@@ -18,12 +18,12 @@ descriptive variables and also to contain the activity class.
 
 #Activity Class:
 
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 
 #    Steps which i followed in order to transform the data set in its final condition:
 1.Improt the 'activity_labels'.txt.
