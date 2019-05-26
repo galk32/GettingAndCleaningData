@@ -48,15 +48,17 @@ descriptive variables and also to contain the activity class.
 2.The other Variables are quantative variables.
 
 ## variables_summary
-$`subject`
+`$`subject`
   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24 
 347 302 341 317 302 325 308 281 288 294 316 320 327 323 328 366 368 364 360 354 408 321 372 381 
  25  26  27  28  29  30 
 409 392 376 382 344 383 
 
-$`activity`
- walking    walking_ustairs  walking_downstairs  sitting   stading laying 
- 1722              1544              1406        1777       1906      1944 
+$activity
+           walking    walking_ustairs walking_downstairs            sitting            stading 
+              1722               1544               1406               1777               1906 
+            laying 
+              1944 
 
 $`tBodyAcc-mean()-X`
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
@@ -371,5 +373,5 @@ $`fBodyBodyGyroJerkMag-std()`
 -1.0000 -0.9926 -0.9382 -0.7922 -0.6437  1.0000 
 
 $`fBodyBodyGyroJerkMag-meanFreq()`
-    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. `
 -1.00000 -0.01948  0.13625  0.12671  0.28896  1.00000 
