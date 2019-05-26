@@ -54,11 +54,9 @@ $`subject`
  25  26  27  28  29  30 
 409 392 376 382 344 383 
 
-$ `activity`
- walking    walking_ustairs    walking_downstairs            sitting            stading 
- 1722               1544               1406                    1777               1906 
- laying 
- 1944 
+activity
+ walking    walking_ustairs  walking_downstairs  sitting   stading laying 
+ 1722              1544              1406        1777       1906      1944 
 
 $`tBodyAcc-mean()-X`
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
