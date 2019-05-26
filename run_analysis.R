@@ -46,10 +46,9 @@ x_test_mean_sd_actv %>% rename(activity = V1) -> x_test_mean_sd_actv
 #rearrange the dateset
 x_test_mean_sd_actv <- x_test_mean_sd_actv[c(81,80,1:79)]
 
-#change activity and subject class to be factor
+#change activity class to be factor
 library(forcats)
 x_test_mean_sd_actv$activity <- as.factor(x_test_mean_sd_actv$activity)
-#x_test_mean_sd_actv$subject  <- as.factor(x_test_mean_sd_actv$subject)
 
 #rename factors
 x_test_mean_sd_actv$activity <- fct_recode(x_test_mean_sd_actv$activity,
@@ -90,10 +89,9 @@ x_train_mean_sd_actv %>% rename(activity = V1) -> x_train_mean_sd_actv
 x_train_mean_sd_actv <- x_train_mean_sd_actv[c(81,80,1:79)]
 
 
-#change activity and subject class to be factor
+#change activity class to be factor
 library(forcats)
 x_train_mean_sd_actv$activity <- as.factor(x_train_mean_sd_actv$activity)
-#x_train_mean_sd_actv$subject  <- as.factor(x_train_mean_sd_actv$subject)
 
 #rename factors
 x_train_mean_sd_actv$activity <- fct_recode(x_train_mean_sd_actv$activity,
