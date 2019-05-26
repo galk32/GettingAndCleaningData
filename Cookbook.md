@@ -14,8 +14,9 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip *
 
 The goal of the project is to merge the train and the data set of the above zip file 
-containing only the mean and std variables. Moreover the new data set must have tidy
-descriptive variables and also to contain the activity class.
+containing only the mean and std variables. Moreover the merged data set must have tidy
+descriptive variables and also to contain the subject and activity class. Then Creating 
+a second, indepentent tidy data set with the mean of each variable per subject and activity.
 
 # Activity Class:
 
@@ -45,22 +46,19 @@ descriptive variables and also to contain the activity class.
 
 
 # Variables:
-1.Activity is a factor class.
-2.The other Variables are quantative variables.
+1.Activity and subject are  factor class variables.
+2.The other are quantative variables.
 
 ## variables_summary
 `$`subject`
   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24 25  26  27  28  29  30:
 347 302 341 317 302 325 308 281 288 294 316 320 327 323 328 366 368 364 360 354 408 321 372 381 409 392 376 382 344 383 
   
-
-
 $activity
  walking    walking_ustairs walking_downstairs            sitting            stading    laying :
               
   1722               1544               1406               1777               1906       1944
             
-
 $`tBodyAcc-mean()-X`
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
 -1.0000  0.2626  0.2772  0.2743  0.2884  1.0000 
