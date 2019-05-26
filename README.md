@@ -1,4 +1,4 @@
-# Scripts which i 've used and upload in my repo:
+# Scripts in my repo:
 
 1. Cookbook.md (describes the details of the project the steps i 've followed 
    and the Variables summary
