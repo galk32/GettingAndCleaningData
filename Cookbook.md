@@ -47,7 +47,7 @@ descriptive variables and also to contain the activity class.
 1.Activity is a factor class.
 2.The other Variables are quantative variables.
 
-> variables_summary
+## variables_summary
 $`subject`
   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24 
 347 302 341 317 302 325 308 281 288 294 316 320 327 323 328 366 368 364 360 354 408 321 372 381 
