@@ -30,15 +30,16 @@ descriptive variables and also to contain the activity class.
 2. Import the 'features.txt' as a tibble.
 3. From the 'feature object' make a new subset that contains the std and mean variables as an index.
 4. Indexing Variable names
-5. Importing and Tidyng 'x_data.txt' and 'y_test.txt 
-6. Binding the activity column with the Test data set
-7. Rename activity variables in order to be in the descriptive form.
+5. Importing and Tidyng 'x_data.txt' ,'y_test.txt' and subject.test.txt 
+6. Binding the activity and the subject column with the Test data set
+7. Rename activity and subject variables in order to be in the descriptive form.Rearrange colume subject and activity to 1:2
+   position.
 9. Transform activity variables to a factor
-10. The same procedure(steps 5-9) was followed for the train data set.
-11. Merging the final two new data sets('x_train_mean_sd_actv' and 'x_test_mean_sd_actv') 
-12. Creating a second, independent tidy data set with the mean of each variable per activity
-    named 'avg_activity' and then exporting it as a csv file.
-13. Viewing both Variable summaries and mean values per activity.
+10. The same procedure(steps 5-9) was followed for the train data set with the corresponding names train instead of test.
+11. Merging the final two new data sets('x_train_mean_sd_actv' and 'x_test_mean_sd_actv') and changing subject to factor 
+12. Creating a second, independent tidy data set with the mean of each variable per subject and activity with the
+    name 'avg_activity' and then exporting it as a txt file.
+13. Viewing both 'Variable summaries' and 'mean values per subject and activity'.
 
 
 
@@ -46,7 +47,14 @@ descriptive variables and also to contain the activity class.
 1.Activity is a factor class.
 2.The other Variables are quantative variables.
 
-$`activity`
+> variables_summary
+$`subject`
+  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24 
+347 302 341 317 302 325 308 281 288 294 316 320 327 323 328 366 368 364 360 354 408 321 372 381 
+ 25  26  27  28  29  30 
+409 392 376 382 344 383 
+
+$activity
            walking    walking_ustairs walking_downstairs            sitting            stading 
               1722               1544               1406               1777               1906 
             laying 
@@ -367,6 +375,3 @@ $`fBodyBodyGyroJerkMag-std()`
 $`fBodyBodyGyroJerkMag-meanFreq()`
     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
 -1.00000 -0.01948  0.13625  0.12671  0.28896  1.00000 
-
-
-
