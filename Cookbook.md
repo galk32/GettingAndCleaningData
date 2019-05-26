@@ -50,7 +50,7 @@ a second, indepentent tidy data set with the mean of each variable per subject a
 2.The other are quantative variables.
 
 ## variables_summary
-`$`subject`
+`$ `subject`
   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24 25  26  27  28  29  30:
 347 302 341 317 302 325 308 281 288 294 316 320 327 323 328 366 368 364 360 354 408 321 372 381 409 392 376 382 344 383 
   
