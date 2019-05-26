@@ -4,7 +4,7 @@
    and the Variables summary
 2. The feature.txt (contains the decriptive Mapping for the Variables)
 3. The Activity_labels.txt( describes the acivity class)
-4. Unfortunately x_test.txt and y_test is to big to be uploaded to Github,pleas go to
+4. Unfortunately x_test.txt and y_test is to big to be uploaded to Github,please go to
    the link:
    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
    and download the zip file.
