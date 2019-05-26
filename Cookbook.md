@@ -1,7 +1,7 @@
 # **COOKBOOK**
 
 ### *Author: Giorgos Anastaskos*
-### *date:  25/5/19*
+### *Date:  25/05/2019*
 The Cookbook describes a project which have been made from me and it is relevant to 
 a final Coursera project "Getting and Cleaning Data.
 
