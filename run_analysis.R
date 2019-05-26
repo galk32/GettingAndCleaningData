@@ -1,13 +1,9 @@
 library(tidyverse)
-
 #Importing 
-
 activity_labels <- read_table("activity_labels.txt")
 #features
 features <- read.table("features.txt",row.names=NULL)
 features <- as.tibble(features)
-
-
 #---------------------------------------features---------------------------------------------
 head(features)
 #filtering the mean and std variables
@@ -34,7 +30,6 @@ x_test_mean_sd <- X_test[,feature_mean_std_index$V1]
 #rename variables
 names(x_test_mean_sd) <- Var_name
 
-
 #--------------------------------test. activity labeled-----------------------
 y_test <- read.table("./test/y_test.txt")
 y_test <- as.tibble(y_test)
@@ -58,8 +53,6 @@ x_test_mean_sd_actv$activity <- fct_recode(x_test_mean_sd_actv$activity,
                                            laying="6")
 head(x_test_mean_sd_actv)
 tail(x_test_mean_sd_actv)
-
-
 #---------------------------------------------------------------------------------------------
 #-----------------------A)IMPROTING AND TIDYNG TRAIN DATA SET---------------------------------
 #---------------------------------------------------------------------------------------------
@@ -76,7 +69,6 @@ x_train_mean_sd <- X_train[,feature_mean_std_index$V1]
 #rename variables
 names(x_train_mean_sd) <- Var_name
 
-
 #--------------------------------train activity labeled-----------------------
 y_train <- read.table("./train/y_train.txt")
 y_train <- as.tibble(y_train)
@@ -87,7 +79,6 @@ x_train_mean_sd_actv %>% rename(activity = V1) -> x_train_mean_sd_actv
 
 #rearrange the dateset
 x_train_mean_sd_actv <- x_train_mean_sd_actv[c(81,80,1:79)]
-
 
 #change activity class to be factor
 library(forcats)
@@ -118,12 +109,10 @@ variables_summary <- sapply(mergedataset, summary)
 mergedataset %>% group_by(subject,activity) %>% 
   summarize_all(mean) -> avg_activity
 
-
 #average values per activity
 
 View(avg_activity)
 View(variables_summary)
-
 
 #writing the file
 write.table(x=avg_activity,file = "./avg_activity.txt", row.names = FALSE)
